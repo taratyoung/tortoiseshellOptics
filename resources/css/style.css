@@ -44,8 +44,6 @@ html {
     margin: 0 1rem 0 2rem;
 }
 
-.logo span {}
-
 .menu {
     border: 1px dashed yellow;
 }
@@ -196,3 +194,30 @@ html {
 
 
 /*Info End*/
+
+
+/*Footer*/
+
+.footer-container {
+    border: 2px dashed limegreen;
+    display: flex;
+    width: 100%;
+    background-color: azure;
+    margin:  0 auto;
+    
+}
+
+.black-logo {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    max-width: 960px;
+}
+
+.black-logo img {
+    height: 1.5rem;
+    margin: 4rem 1rem 4rem 2rem;
+}
+
+
+/*Footer End*/
