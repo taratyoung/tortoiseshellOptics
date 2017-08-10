@@ -3,13 +3,14 @@ html {
     line-height: 1.4;
     font-family: Helvetica;
     background-color: lightgray;
+    box-sizing: border-box;
 }
 
 
 /*Header Starts Here*/
 
 .header {
-    border: 2px dashed red;
+    border: 2px dashed limegreen;
     background-image: url("../images/glasses-bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -66,7 +67,7 @@ html {
 /*Main banner*/
 
 .banner-container {
-    border: 1px dashed blue;
+    border: 2px dashed limegreen;
     display: flex;
     justify-content: flex-end;
     max-width: 960px;
@@ -96,3 +97,102 @@ html {
 
 
 /*Header end*/
+
+
+/*Account*/
+
+.about-container {
+    border: 2px dashed limegreen;
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+    max-width: 960px;
+}
+
+.about {
+    border: 2px dashed red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    justify-content: space-between;
+    line-height: 1.2rem;
+    margin: 3rem 3rem;
+    width: 5rem;
+}
+
+.exams img {
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.exams p {
+    border: 1px solid yellow;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.fittings img {
+    width: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.fittings p {
+    border: 1px solid yellow;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.delivery img {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+.delivery p {
+    border: 1px solid yellow;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Account End*/
+
+
+/*Info*/
+
+.info-container {
+    border: 2px dashed limegreen;
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.info {
+    border: 1px solid blue;
+    width: 35%;
+    margin-right: 5%;
+}
+
+.info p {
+    border: 1px solid red;
+    padding: 1rem 0;
+    line-height: 1.4;
+}
+
+.heading {
+    border: 1px solid blue;
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .5rem 1.25rem;
+    width: 10rem
+}
+
+
+/*Info End*/
