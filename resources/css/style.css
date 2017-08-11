@@ -204,6 +204,12 @@
     /*Media Queries*/
     /*1024 Tablet*/
     
+    @media only screen and (max-width: 1920px) and (min-width: 480px) {
+        .mobile-menu {
+            display: none;
+        }
+    }
+    
     @media only screen and (max-width: 1024px) {
         .header {
             /*border: 1px solid red;*/
@@ -216,8 +222,6 @@
             width: 100%;
         }
         .main-banner {
-            /*border: 1px solid red;
-            background-color: white;*/
             display: inline-block;
             margin-right: 2rem;
             margin-top: 5rem;
@@ -225,5 +229,97 @@
         }
         .main-banner h1 {
             font-size: 1.33rem;
+        }
+    }
+    /*480 Mobile*/
+    /*Header*/
+    
+    @media only screen and (max-width: 480px) {
+        .header {
+            /*border: 1px solid red;*/
+            background-position: 20%;
+            height: 17rem;
+            width: 100%;
+        }
+        .nav-container {
+            /*border: 2px dashed blue;*/
+            margin: 0;
+            padding: 1rem;
+            width: 100%;
+        }
+        .main-banner {
+            display: inline-block;
+            margin-right: 2rem;
+            margin-top: 5rem;
+            padding: 1.5rem 4rem;
+        }
+        .main-banner h1 {
+            font-size: 1.33rem;
+        }
+        .logo span {
+            display: none;
+        }
+        .menu {
+            display: none;
+        }
+        .mobile-menu {
+            margin: auto 3rem;
+            padding: 0;
+            text-align: center;
+        }
+        .main-banner {
+            font-size: 1rem;
+            margin: 9rem auto .5rem;
+            padding: 1rem 0;
+            text-align: center;
+            width: 100%;
+        }
+    }
+    /*About*/
+    
+    @media only screen and (max-width: 480px) {
+        .about-container {
+            display: block;
+            margin-top: 3.77rem;
+            width: 100%;
+        }
+        .exams {
+            width: 30%;
+            margin: 0 35%;
+        }
+        .exams img {
+            width: 3.5rem;
+            margin-bottom: 0;
+        }
+        .exams p {
+            text-align: center;
+            margin: .5rem 0 1.54rem 0;
+            padding: 0;
+        }
+        .fittings {
+            width: 30%;
+            margin: 0 35%;
+        }
+        .fittings img {
+            width: 4.5rem;
+            margin-bottom: 0;
+        }
+        .fittings p {
+            text-align: center;
+            margin: 0 0 1.54rem 0;
+            padding: 0;
+        }
+        .delivery {
+            width: 30%;
+            margin: 0 35%;
+        }
+        .delivery img {
+            width: 5rem;
+            margin-bottom: 0;
+        }
+        .delivery p {
+            text-align: center;
+            margin: .5rem 0 3.77rem 0;
+            padding: 0;
         }
     }
