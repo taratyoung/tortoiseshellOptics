@@ -104,7 +104,6 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        height: 8rem;
         justify-content: space-between;
         line-height: 1.2rem;
         margin: 3rem 3rem;
@@ -213,12 +212,6 @@
     /*Media Queries*/
     /*1024 Tablet*/
     
-    @media only screen and (max-width: 1920px) and (min-width: 480px) {
-        .mobile-menu {
-            display: none;
-        }
-    }
-    
     @media only screen and (max-width: 1024px) {
         .header {
             /*border: 1px solid red;*/
@@ -242,6 +235,12 @@
     }
     /*480 Mobile*/
     /*Header*/
+    
+    @media only screen and (min-width: 480px) {
+        .mobile-menu {
+            display: none;
+        }
+    }
     
     @media only screen and (max-width: 480px) {
         .header {
@@ -289,7 +288,7 @@
     @media only screen and (max-width: 480px) {
         .about-container {
             display: block;
-            margin-bottom: 3.77rem;
+            margin-bottom: .77rem;
             margin-top: 3.77rem;
             width: 100%;
             font-size: .77rem;
@@ -298,7 +297,7 @@
         }
         .exams {
             width: 30%;
-            margin: 0 auto 1.54rem;
+            margin: 0 auto;
             /*padding-bottom: 1.54rem;*/
         }
         .exams img {
@@ -307,12 +306,12 @@
         }
         .exams p {
             text-align: center;
-            margin: 1rem 0 1.54rem 0;
+            margin: 1rem 0;
             padding: 0;
         }
         .fittings {
-            width: 30%;
-            margin: 0 auto 1.54rem;
+            width: 20%;
+            margin: 0 auto;
             /*padding-bottom: 1.54rem;*/
         }
         .fittings img {
@@ -321,10 +320,10 @@
         }
         .fittings p {
             text-align: center;
-            margin: 1rem 0 3.77rem 0;
+            margin: 1rem 0;
         }
         .delivery {
-            width: 30%;
+            width: 15%;
             margin: 0 auto
         }
         .delivery img {
@@ -335,7 +334,7 @@
         }
         .delivery p {
             text-align: center;
-            margin: 1rem 0 3.77rem 0;
+            margin: 1rem 00;
         }
     }
     
@@ -363,12 +362,12 @@
         }
         .philosophy {
             display: block;
-            margin: 0 auto 4rem;
+            margin: 0 auto 2rem;
             width: 90%;
         }
         .appointments {
             display: block;
-            margin: 0 auto 4rem;
+            margin: 0 auto 2rem;
             width: 90%;
         }
     }
